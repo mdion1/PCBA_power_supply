@@ -1,0 +1,274 @@
+59703055809692
+user_generated_footprints
+ASDMB-24000MHZ_clock
+
+
+0
+4
+4
+user_generated_footprints
+Banana_plug
+
+
+0
+4
+4
+user_generated_footprints
+C_1210_0805_combo
+Capacitor SMD 1210, reflow soldering, AVX (see smccp.pdf)
+capacitor 1210
+0
+4
+2
+user_generated_footprints
+C_nonpolar_Radial_D8.0mm_P3.50mm
+CP, Radial series, Radial, pin pitch=3.50mm, , diameter=8mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 3.50mm  diameter 8mm Electrolytic Capacitor
+0
+2
+2
+user_generated_footprints
+D2PAK
+DE Package; 14-Lead Plastic DFN (4mm x 3mm) (see Linear Technology DFN_14_05-08-1708.pdf)
+DFN 0.5
+0
+3
+3
+user_generated_footprints
+DB9FC_w_housing_connection
+Connecteur DB9 femelle couche
+CONN DB9
+0
+11
+10
+user_generated_footprints
+DFN-14-2EP
+DE Package; 14-Lead Plastic DFN (4mm x 3mm) (see Linear Technology DFN_14_05-08-1708.pdf)
+DFN 0.5
+0
+18
+16
+user_generated_footprints
+DO-214AC
+Spindle Trimmer Potentiometer, Bourns 3266Y, https://www.bourns.com/pdfs/3266.pdf
+Spindle Trimmer Potentiometer   Bourns 3266Y
+0
+2
+2
+user_generated_footprints
+Double_wound_toroid
+Spindle Trimmer Potentiometer, Bourns 3266Y, https://www.bourns.com/pdfs/3266.pdf
+Spindle Trimmer Potentiometer   Bourns 3266Y
+0
+4
+4
+user_generated_footprints
+DPDT_relay_SMT
+Spindle Trimmer Potentiometer, Bourns 3266Y, https://www.bourns.com/pdfs/3266.pdf
+Spindle Trimmer Potentiometer   Bourns 3266Y
+0
+8
+8
+user_generated_footprints
+Dsub9
+
+
+0
+11
+10
+user_generated_footprints
+Dsub15
+
+
+0
+17
+16
+user_generated_footprints
+D_0603
+Diode SMD in 0603 package http://datasheets.avx.com/schottky.pdf
+smd diode
+0
+2
+2
+user_generated_footprints
+Fan_mount
+
+
+0
+4
+4
+user_generated_footprints
+Heatsink_mt
+
+
+0
+0
+0
+user_generated_footprints
+ICSP_header
+
+
+0
+6
+6
+user_generated_footprints
+LED_horiz
+C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf
+C Disc series Radial pin pitch 2.50mm  diameter 3.0mm width 1.6mm Capacitor
+0
+2
+2
+user_generated_footprints
+LFCSP-16-1EP_4x4mm_Pitch0.65mm
+16-Lead Lead Frame Chip Scale Package, 3x3mm, 0.5mm pitch, 1.854mm thermal pad (CP-16-22, http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp_16_22.pdf)
+LFCSP 16 0.5
+0
+21
+17
+user_generated_footprints
+MicroSD_holder
+
+
+0
+12
+10
+user_generated_footprints
+MSOP-8_3x3mm_Pitch0.65mm
+8-Lead Plastic Micro Small Outline Package (MS) [MSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+8
+8
+user_generated_footprints
+MSOP-10_3x3mm_Pitch0.5mm
+10-Lead Plastic Micro Small Outline Package (MS) [MSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.5
+0
+10
+10
+user_generated_footprints
+Potentiometer_Trimmer_Bourns_3266Y
+Spindle Trimmer Potentiometer, Bourns 3266Y, https://www.bourns.com/pdfs/3266.pdf
+Spindle Trimmer Potentiometer   Bourns 3266Y
+0
+3
+3
+user_generated_footprints
+Probe_pad_1206
+
+
+0
+1
+1
+user_generated_footprints
+Slide_switch
+
+
+0
+7
+4
+user_generated_footprints
+SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm
+8-Lead Thermally Enhanced Plastic Small Outline (SE) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
+0
+12
+9
+user_generated_footprints
+SOIC-8_3.9x4.9mm_Pitch1.27mm
+8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
+0
+8
+8
+user_generated_footprints
+SOIC-16W_7.5x12.8mm_Pitch1.27mm
+16-Lead Plastic Small Outline (SO) - Wide, 7.50 mm x 12.8 mm Body (http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM6000.PDF)
+SOIC 1.27
+0
+16
+16
+user_generated_footprints
+SOT-5
+SOT553
+SOT-553
+0
+5
+5
+user_generated_footprints
+SOT-23-8
+8-pin SOT-23 package, http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/sot-23rj/rj_8.pdf
+SOT-23-8
+0
+8
+8
+user_generated_footprints
+SPDT_pbtn
+
+
+0
+5
+4
+user_generated_footprints
+SPDT_relay_THT
+Spindle Trimmer Potentiometer, Bourns 3266Y, https://www.bourns.com/pdfs/3266.pdf
+Spindle Trimmer Potentiometer   Bourns 3266Y
+0
+6
+6
+user_generated_footprints
+SPST_relay_PCN-112D3
+
+
+0
+4
+4
+user_generated_footprints
+SPST_relay_THT
+Spindle Trimmer Potentiometer, Bourns 3266Y, https://www.bourns.com/pdfs/3266.pdf
+Spindle Trimmer Potentiometer   Bourns 3266Y
+0
+4
+4
+user_generated_footprints
+TSOP-5
+TSOP-5 package (comparable to TSOT-23), https://www.vishay.com/docs/71200/71200.pdf
+Jedec MO-193C TSOP-5L
+0
+5
+5
+user_generated_footprints
+TSSOP-14_4.4x5mm_Pitch0.65mm
+14-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+14
+14
+user_generated_footprints
+TSSOP-16_4.4x5mm_Pitch0.65mm
+16-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+16
+16
+user_generated_footprints
+TSSOP-24_EP
+TSSOP24: plastic thin shrink small outline package; 24 leads; body width 4.4 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot355-1_po.pdf)
+SSOP 0.65
+0
+25
+25
+user_generated_footprints
+USB_A
+
+
+0
+6
+5
+user_generated_footprints
+Vent_hole
+
+
+0
+1
+1

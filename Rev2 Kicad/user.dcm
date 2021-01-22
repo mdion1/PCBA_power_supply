@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Conn_WallPlug_Earth
+D 3-pin general wall plug, with Earth wire (110VAC, 220VAC)
+K wall plug 110VAC 220VAC
+F ~
+$ENDCMP
+#
+#End Doc Library
