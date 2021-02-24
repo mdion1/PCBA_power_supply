@@ -1,6 +1,78 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector_Conn_WallPlug_Earth
+#
+DEF Connector_Conn_WallPlug_Earth P 0 0 Y Y 1 F N
+F0 "P" 0 150 50 H V C BNN
+F1 "Connector_Conn_WallPlug_Earth" -200 0 50 V V C BNN
+F2 "" 400 0 50 H I C CNN
+F3 "" 400 0 50 H I C CNN
+DRAW
+A -125 0 150 -899 899 0 1 10 f -125 -150 -125 150
+C 100 -300 14 0 1 0 F
+P 2 0 1 20 -175 -100 -25 -100 N
+P 2 0 1 20 -175 0 20 0 N
+P 2 0 1 20 -175 100 -25 100 N
+P 2 0 1 10 -125 -150 -125 150 N
+P 2 0 1 0 -25 -100 100 -100 N
+P 2 0 1 0 -25 100 100 100 N
+P 2 0 1 8 60 -370 140 -370 N
+P 2 0 1 8 70 -390 130 -390 N
+P 2 0 1 8 80 -410 120 -410 N
+P 2 0 1 8 90 -430 110 -430 N
+P 2 0 1 8 100 -300 100 -350 N
+P 2 0 1 8 150 -350 50 -350 N
+P 4 0 1 0 100 -300 75 -300 75 0 -175 0 N
+X AC_P 1 300 100 200 L 50 50 1 1 w
+X AC_N 2 300 -100 200 L 50 50 1 1 w
+X EARTH 3 300 -300 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_DB9_Female_MountingHoles
+#
+DEF Connector_DB9_Female_MountingHoles J 0 40 Y N 1 F N
+F0 "J" 0 650 50 H V C CNN
+F1 "Connector_DB9_Female_MountingHoles" 0 575 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ DSUB*Female*
+$ENDFPLIST
+DRAW
+C -70 -400 30 0 1 0 N
+C -70 -200 30 0 1 0 N
+C -70 0 30 0 1 0 N
+C -70 200 30 0 1 0 N
+C -70 400 30 0 1 0 N
+C 50 -300 30 0 1 0 N
+C 50 -100 30 0 1 0 N
+C 50 100 30 0 1 0 N
+C 50 300 30 0 1 0 N
+P 2 0 1 0 -150 -400 -100 -400 N
+P 2 0 1 0 -150 -300 20 -300 N
+P 2 0 1 0 -150 -200 -100 -200 N
+P 2 0 1 0 -150 -100 20 -100 N
+P 2 0 1 0 -150 0 -100 0 N
+P 2 0 1 0 -150 100 20 100 N
+P 2 0 1 0 -150 200 -100 200 N
+P 2 0 1 0 -150 300 20 300 N
+P 2 0 1 0 -150 400 -100 400 N
+P 5 0 1 10 -150 525 -150 -525 150 -375 150 375 -150 525 f
+X PAD 0 0 -600 150 U 50 50 1 1 P
+X 1 1 -300 400 150 R 50 50 1 1 P
+X 2 2 -300 200 150 R 50 50 1 1 P
+X 3 3 -300 0 150 R 50 50 1 1 P
+X 4 4 -300 -200 150 R 50 50 1 1 P
+X 5 5 -300 -400 150 R 50 50 1 1 P
+X 6 6 -300 300 150 R 50 50 1 1 P
+X 7 7 -300 100 150 R 50 50 1 1 P
+X 8 8 -300 -100 150 R 50 50 1 1 P
+X 9 9 -300 -300 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_C
 #
 DEF Device_C C 0 10 N Y 1 F N
@@ -121,75 +193,18 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# conn_Conn_WallPlug_Earth
+# Mechanical_Fiducial
 #
-DEF conn_Conn_WallPlug_Earth P 0 0 Y Y 1 F N
-F0 "P" 0 150 50 H V C BNN
-F1 "conn_Conn_WallPlug_Earth" -200 0 50 V V C BNN
-F2 "" 400 0 50 H I C CNN
-F3 "" 400 0 50 H I C CNN
-DRAW
-A -125 0 150 -899 899 0 1 10 f -125 -150 -125 150
-C 100 -300 14 0 1 0 F
-P 2 0 1 20 -175 -100 -25 -100 N
-P 2 0 1 20 -175 0 20 0 N
-P 2 0 1 20 -175 100 -25 100 N
-P 2 0 1 10 -125 -150 -125 150 N
-P 2 0 1 0 -25 -100 100 -100 N
-P 2 0 1 0 -25 100 100 100 N
-P 2 0 1 8 60 -370 140 -370 N
-P 2 0 1 8 70 -390 130 -390 N
-P 2 0 1 8 80 -410 120 -410 N
-P 2 0 1 8 90 -430 110 -430 N
-P 2 0 1 8 100 -300 100 -350 N
-P 2 0 1 8 150 -350 50 -350 N
-P 4 0 1 0 100 -300 75 -300 75 0 -175 0 N
-X AC_P 1 300 100 200 L 50 50 1 1 w
-X AC_N 2 300 -100 200 L 50 50 1 1 w
-X EARTH 3 300 -300 200 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# conn_DB9_Female_MountingHoles
-#
-DEF conn_DB9_Female_MountingHoles J 0 40 Y N 1 F N
-F0 "J" 0 650 50 H V C CNN
-F1 "conn_DB9_Female_MountingHoles" 0 575 50 H V C CNN
+DEF Mechanical_Fiducial FID 0 20 Y Y 1 F N
+F0 "FID" 0 200 50 H V C CNN
+F1 "Mechanical_Fiducial" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- DB*F*
+ Fiducial*
 $ENDFPLIST
 DRAW
-C -70 -400 30 0 1 0 N
-C -70 -200 30 0 1 0 N
-C -70 0 30 0 1 0 N
-C -70 200 30 0 1 0 N
-C -70 400 30 0 1 0 N
-C 50 -300 30 0 1 0 N
-C 50 -100 30 0 1 0 N
-C 50 100 30 0 1 0 N
-C 50 300 30 0 1 0 N
-P 2 0 1 0 -150 -400 -100 -400 N
-P 2 0 1 0 -150 -300 20 -300 N
-P 2 0 1 0 -150 -200 -100 -200 N
-P 2 0 1 0 -150 -100 20 -100 N
-P 2 0 1 0 -150 0 -100 0 N
-P 2 0 1 0 -150 100 20 100 N
-P 2 0 1 0 -150 200 -100 200 N
-P 2 0 1 0 -150 300 20 300 N
-P 2 0 1 0 -150 400 -100 400 N
-P 5 0 1 10 -150 525 -150 -525 150 -375 150 375 -150 525 f
-X PAD 0 0 -600 150 U 50 50 1 1 P
-X 1 1 -300 400 150 R 50 50 1 1 P
-X 2 2 -300 200 150 R 50 50 1 1 P
-X 3 3 -300 0 150 R 50 50 1 1 P
-X 4 4 -300 -200 150 R 50 50 1 1 P
-X 5 5 -300 -400 150 R 50 50 1 1 P
-X 6 6 -300 300 150 R 50 50 1 1 P
-X 7 7 -300 100 150 R 50 50 1 1 P
-X 8 8 -300 -100 150 R 50 50 1 1 P
-X 9 9 -300 -300 150 R 50 50 1 1 P
+C 0 0 50 0 1 20 f
 ENDDRAW
 ENDDEF
 #
@@ -222,11 +237,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# pwr-supply-rev-5-rescue_LTM8022-pwr-supply-rev-3-rescue-pwr-supply-rev-4-rescue-pwr-supply-rev-4-rescue
+# user_LTM8022
 #
-DEF pwr-supply-rev-5-rescue_LTM8022-pwr-supply-rev-3-rescue-pwr-supply-rev-4-rescue-pwr-supply-rev-4-rescue U 0 40 Y Y 1 F N
+DEF user_LTM8022 U 0 40 Y Y 1 F N
 F0 "U" -50 -50 60 H V C CNN
-F1 "pwr-supply-rev-5-rescue_LTM8022-pwr-supply-rev-3-rescue-pwr-supply-rev-4-rescue-pwr-supply-rev-4-rescue" -50 -150 60 H V C CNN
+F1 "user_LTM8022" -50 -150 60 H V C CNN
 F2 "" -50 -150 60 H I C CNN
 F3 "" -50 -150 60 H I C CNN
 DRAW
@@ -245,11 +260,11 @@ X Adj H7 200 -1300 200 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# pwr-supply-rev-5-rescue_TPP30-115A-D-user
+# user_TPP30-115A-D
 #
-DEF pwr-supply-rev-5-rescue_TPP30-115A-D-user U 0 40 Y Y 1 F N
+DEF user_TPP30-115A-D U 0 40 Y Y 1 F N
 F0 "U" 0 0 60 H V C CNN
-F1 "pwr-supply-rev-5-rescue_TPP30-115A-D-user" 0 500 60 H V C CNN
+F1 "user_TPP30-115A-D" 0 500 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -259,6 +274,18 @@ X AC-L 2 -900 200 200 R 50 50 1 1 W
 X V+ 3 900 200 200 L 50 50 1 1 w
 X V- 4 900 -200 200 L 50 50 1 1 w
 X Trim 5 900 -350 200 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# user_generated_parts_DummyBlock
+#
+DEF user_generated_parts_DummyBlock U 0 40 Y Y 1 F N
+F0 "U" 0 75 60 H V C CNN
+F1 "user_generated_parts_DummyBlock" 0 0 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -125 125 125 -125 0 1 0 N
 ENDDRAW
 ENDDEF
 #

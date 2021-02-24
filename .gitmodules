@@ -1,0 +1,3 @@
+[submodule "kiCAD_SharedLibrary"]
+	path = kiCAD_SharedLibrary
+	url = https://github.com/Admiral-Instruments/kiCAD_SharedLibrary
